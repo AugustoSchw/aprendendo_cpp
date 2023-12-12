@@ -1,0 +1,7 @@
+Para importar uma classe de um arquivo para o outro em c++:
+    Precisa ter um arquivo .h com somente a declaração do arquivo, sem a implementação.
+            -> Nesse arquivo, precisa ter na primeira linha "#pragma once", que diz pro programa que o conteudo desse arquivo tem q ser carregado pré-processamento
+            -> Chamado de "header file"
+
+    Vai ter outro arquivo .cpp, onde vão ter as implementações da classe.
+            -> Source code file
